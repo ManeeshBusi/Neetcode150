@@ -2,8 +2,6 @@
 # trap after raining.
 
 def trap(height):
-    if len(height) < 3:
-        return 0
 
     vol, l, r = 0, 0, len(height)-1
     lmax, rmax = 0, 0
